@@ -26,7 +26,7 @@ namespace lumaMatrix {
     export let matrixHeight = 8; // y, min 4
     export let currentBrightness = 100; // 0 to 255
     export let pollingInterval = 10 // 10ms Interval for polling LED Matrix Interface. Adjust the polling interval as needed.
-    let pinNeopixels: DigitalPin = DigitalPin.P0;
+    let pinNeopixels: DigitalPin = DigitalPin.P13;
     let pinSwitch: DigitalPin = DigitalPin.P1;
     let pinCenterButton: DigitalPin = DigitalPin.P2;
     let pinUpButton: DigitalPin = DigitalPin.P9;
